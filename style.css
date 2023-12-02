@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background-color: white;
+}
+
+.promo{
+    display: flex;
+    width: 1533px;
+    height: 111.6px;
+    border: 2px solid;
+    flex-wrap: wrap;
+}
+.promo-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 1533px;
+    height: 40px;
+    background-color: #f3f3f3;
+    
+}
+.promo-text p{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    background-color: rgb(248, 148, 16);
+    width: 1500px;
+}
+.menu-item{
+    display:flex;
+    background-color: rebeccapurple;
+    width: 800px;
+}
