@@ -3,11 +3,13 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .promo{
     display: flex;
-    width: 1533px;
+    width: 1513px;
     height: 111.6px;
     border: 2px solid;
     flex-wrap: wrap;
@@ -17,7 +19,7 @@
     justify-content: center;
     align-items: center;
     
-    width: 1533px;
+    width: 1513px;
     height: 40px;
     background-color: #f3f3f3;
     
@@ -27,14 +29,17 @@
     font-size: 1.2rem;
 }
 .menu{
+    border: 1px solid red;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;    
-    background-color: rgb(248, 148, 16);
-    width: 1500px;
+    width: 566px;
+    height: 70px;
+    justify-content: flex-start;
+    align-items: center;
+    
 }
 .menu-item{
-    display:flex;
-    background-color: rebeccapurple;
-    width: 800px;
+    font-weight: bolder;
+}
+.menu-item #sale{
+    color: red;
 }
