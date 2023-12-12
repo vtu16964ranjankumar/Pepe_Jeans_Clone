@@ -1,45 +1,54 @@
-*{
-    margin: 0;
+body{
+    margin-top: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     background-color: white;
-    margin-left: 8px;
-    margin-right: 8px;
+    box-sizing: border-box;
+    
 }
-
-.promo{
-    display: flex;
-    width: 1513px;
-    height: 111.6px;
-    border: 2px solid;
-    flex-wrap: wrap;
-}
-.promo-text{
+.promotext{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    width: 1513px;
     height: 40px;
-    background-color: #f3f3f3;
-    
+    background-color: #eee;
 }
-.promo-text p{
-    font-weight: bolder;
-    font-size: 1.2rem;
+
+li{
+    list-style-type: none;
 }
-.menu{
-    border: 1px solid red;
-    display: flex;
-    width: 566px;
-    height: 70px;
-    justify-content: flex-start;
-    align-items: center;
-    
-}
-.menu-item{
-    font-weight: bolder;
-}
-.menu-item #sale{
+#sale{
     color: red;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 390px;    
+    margin: 0;
+}
+.nav-menu{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    
+    width: auto;
+        
+}
+.logo img{
+    width: 100px;
+}
+#india-flag{
+    width: 22px;
+    height: 16px;
+}
+header nav ul a{
+    text-decoration: none;
 }
