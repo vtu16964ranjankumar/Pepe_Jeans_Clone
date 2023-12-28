@@ -56,6 +56,12 @@ header nav ul a{
 .hero-section{
     display: flex;
 }
-.hero-img{
-    width: 888px;
+.banner{
+    width: 1500px;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
