@@ -1,12 +1,12 @@
-body{
+body {
     margin-top: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     background-color: white;
     box-sizing: border-box;
-    
 }
-.promotext{
+
+.promotext {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,54 +14,57 @@ body{
     background-color: #eee;
 }
 
-li{
+li {
     list-style-type: none;
 }
-#sale{
+
+#sale {
     color: red;
 }
-nav ul{
+
+nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly; /* Adjusted from center to space-evenly */
     align-items: center;
-    justify-content: space-evenly;
     height: 70px;
-    width: 390px;    
+    width: 390px;
     margin: 0;
 }
-.nav-menu{
+
+.nav-menu {
     /* border: 1px solid black; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Adjusted: Removed redundant center */
     align-items: center;
-    justify-content: space-between;
 }
 
-.logo{
-    
+.logo {
     width: auto;
-        
 }
-.logo img{
+
+.logo img {
     width: 100px;
 }
-#india-flag{
+
+#india-flag {
     width: 22px;
     height: 16px;
 }
-header nav ul a{
+
+header nav ul a {
     text-decoration: none;
 }
 
-.hero-section{
+.hero-section {
     display: flex;
 }
-.banner{
+
+.banner {
     width: 1500px;
 }
-.category{
+
+.category {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
