@@ -22,9 +22,9 @@ li {
     color: red;
 }
 
-nav ul {
+nav #icon {
     display: flex;
-    justify-content: space-evenly; /* Adjusted from center to space-evenly */
+    justify-content: space-evenly;
     align-items: center;
     height: 70px;
     width: 390px;
@@ -32,9 +32,8 @@ nav ul {
 }
 
 .nav-menu {
-    /* border: 1px solid black; */
     display: flex;
-    justify-content: space-between; /* Adjusted: Removed redundant center */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -60,7 +59,7 @@ header nav ul a {
 }
 
 .banner {
-    width: 1500px;
+    width: 100%; /* Adjusted to make the banner responsive */
 }
 
 .category {
