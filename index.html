@@ -48,7 +48,7 @@
         <!-- Hero section end -->
         <!-- Main Container Start -->
         <div class="top-categories">
-            <a href="#"><p><u>Top Categories</u></p></a>
+            <h2><a href="#">Top Categories</a></h2>
             <div class="category-item">
                 <ul class="category">
                     <li><a href="#"><img class="category-img" src="./Img/ctg1.png" alt="" /></a></li>
@@ -60,9 +60,9 @@
             </div>
         </div>
         <div class="trending-now">
-            <h4><u>Trending Now</u></h4>
+            <h2><a href="#">Trending Now</a></h2>
             <div class="trending">
-                <ul class="category">
+                <ul id="category-img">
                     <li><a href="#"><img class="trendingImage" id="trendingImage1" src="./Img/tren1.jpg" alt="" /></a></li>
                     <li><a href="#"><img class="trendingImage" src="./Img/tren2.jpg" alt="" /></a></li>
                     <li><a href="#"><img class="trendingImage" src="./Img/tren3.jpg" alt="" /></a></li>
@@ -71,22 +71,23 @@
             </div>
         </div>
         <div class="new-in">
-            <h4><u>New In</u></h4>
+            <h2><a href="#">New In</a></h2>
             <div class="new">
-                <ul class="category">
-                    <li><a href="#"><img src="./Img/New-in-men.webp" alt="men" /></a></li>
-                    <li><a href="#"><img src="./Img/New-in-women.webp" alt="women" /></a></li>
-                    <li><a href="#"><img src="./Img/New-in-boy.webp" alt="boy" /></a></li>
-                    <li><a href="#"><img src="./Img/New-in-girls.webp" alt="girls" /></a></li>
+                <ul class="category" id="newInBox" >
+                    <li><a href="#"><img class="newInImg" src="./Img/New-in-men.webp" alt="men" /></a></li>
+                    <li><a href="#"><img class="newInImg" src="./Img/New-in-women.webp" alt="women" /></a></li>
+                    <li><a href="#"><img class="newInImg" src="./Img/New-in-boy.webp" alt="boy" /></a></li>
+                    <li><a href="#"><img class="newInImg" src="./Img/New-in-girls.webp" alt="girls" /></a></li>
                 </ul>
             </div>
         </div>
         <div class="middleBanner-1">
-            <a href="#"><img class="banner" src="./Img/christmas-footwear-banner.webp" alt="" /></a>
-        </div>
-        <div class="middleBanner-1">
             <a href="#"><img class="banner" src="./Img/Watch-desktop-banner.webp" alt="" /></a>
         </div>
+        <div class="middleBanner-1">
+            <a href="#"><img class="banner" src="./Img/christmas-footwear-banner.webp" alt="" /></a>
+        </div>
+        
     </main>
     <!-- Main Container end -->
     <!-- Footer Start -->
@@ -111,11 +112,11 @@
                         </p>
                     </div>
                     <a href="#"><img src="./Img/india-flag-icon.webp" alt="" /></a>
-                    <a href="#"><h5><u>Change</u></h5></a>
+                    <h5><a href="#">Change</a></h5>
                     <!-- add email service to subscribe -->
                 </div>
-                <div>
-                    <div class="help">
+                <div class="footer-consumer-support">
+                    <div class="footer-consumer-support-content">
                         <h4>Help</h4>
                         <ul>
                             <li class="help-item"><a href="#">Contact us</a></li>
@@ -125,15 +126,15 @@
                             <li class="help-item"><a href="#">FAQs</a></li>
                         </ul>
                     </div>
-                    <div class="quick-links">
+                    <div class="footer-consumer-support-content">
                         <h4>Quick links</h4>
-                        <ul>
+                        <ul id="quickLink">
                             <li class="help-item"><a href="#">Newsletter</a></li>
                             <li class="help-item"><a href="#">Custom Studio</a></li>
                             <li class="help-item"><a href="#">Jeans Fit Guide</a></li>
                         </ul>
                     </div>
-                    <div class="company">
+                    <div class="footer-consumer-support-content">
                         <h4>Company</h4>
                         <ul>
                             <li class="help-item"><a href="#">Special measure</a></li>
@@ -141,9 +142,9 @@
                             <li class="help-item"><a href="#">Store Locator</a></li>
                         </ul>
                     </div>
-                    <div class="policies">
+                    <div class="footer-consumer-support-content">
                         <h4>Policies</h4>
-                        <ul>
+                        <ul class="footer-consumer-support-content-rowgap">
                             <li class="help-item"><a href="#">Terms of Use</a></li>
                             <li class="help-item"><a href="#">Privacy Policy</a></li>
                             <li class="help-item"><a href="#">Cookie Policy</a></li>
