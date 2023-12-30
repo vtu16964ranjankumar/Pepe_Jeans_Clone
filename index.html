@@ -32,7 +32,7 @@
                     <li><a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
                     <li><a href="#"><i class="fa-regular fa-heart fa-xl"></i></a></li>
                     <li><a href="#"><i class="fa-regular fa-user fa-xl"></i></a></li>
-                    <li><a href="#"><img id="india-flag" src="./Img/india-flag-icon.webp" alt="India" /></a></li>
+                    <li><a href="#"><img class="indiaFlag" src="./Img/india-flag-icon.webp" alt="India" /></a></li>
                     <li><a href="#"><i class="fa-solid fa-bag-shopping fa-xl"></i></a></li>
                 </ul>
             </div>
@@ -93,15 +93,17 @@
     <!-- Footer Start -->
     <footer>
         <div class="socialmedia">
-            <i class="fa-light fa-face-smile"></i>
-            <h4>Follow us on</h4>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <div class="socialmedia-item">
+                <i class="fa-regular fa-face-smile" id="smileIcon"></i>
+                <p>Follow us on</p>
+                <a href="#"><i class="fa-brands fa-instagram" id="instagram-icon"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook" id="facebook-icon"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" id="youtube-icon"></i></a>
+            </div>
         </div>
         <div class="subscribe-form">
-            <div>
-                <div>
+            <div class="subscribeBox">
+                <div class="subscribeBox-inner1">
                     <div>
                         <h2>Pepe Jeans<br />Newsletter</h2>
                         <p>
@@ -111,14 +113,17 @@
                             Subscribe now!
                         </p>
                     </div>
-                    <a href="#"><img src="./Img/india-flag-icon.webp" alt="" /></a>
-                    <h5><a href="#">Change</a></h5>
+                    <div class="country">
+                        <a href="#"><img src="./Img/india-flag-icon.webp" class="indiaFlag" alt="" /></a>
+                        <p>India</p>
+                        <h5><a href="#">Change</a></h5>
+                    </div>
                     <!-- add email service to subscribe -->
                 </div>
                 <div class="footer-consumer-support">
                     <div class="footer-consumer-support-content">
                         <h4>Help</h4>
-                        <ul>
+                        <ul class="itemAlign">
                             <li class="help-item"><a href="#">Contact us</a></li>
                             <li class="help-item"><a href="#">Deliveries and returns</a></li>
                             <li class="help-item"><a href="#">My Account</a></li>
@@ -128,7 +133,7 @@
                     </div>
                     <div class="footer-consumer-support-content">
                         <h4>Quick links</h4>
-                        <ul id="quickLink">
+                        <ul class="itemAlign">
                             <li class="help-item"><a href="#">Newsletter</a></li>
                             <li class="help-item"><a href="#">Custom Studio</a></li>
                             <li class="help-item"><a href="#">Jeans Fit Guide</a></li>
@@ -136,7 +141,7 @@
                     </div>
                     <div class="footer-consumer-support-content">
                         <h4>Company</h4>
-                        <ul>
+                        <ul class="itemAlign">
                             <li class="help-item"><a href="#">Special measure</a></li>
                             <li class="help-item"><a href="#">About Us</a></li>
                             <li class="help-item"><a href="#">Store Locator</a></li>
@@ -144,11 +149,15 @@
                     </div>
                     <div class="footer-consumer-support-content">
                         <h4>Policies</h4>
-                        <ul class="footer-consumer-support-content-rowgap">
+                        <ul class="itemAlign">
                             <li class="help-item"><a href="#">Terms of Use</a></li>
                             <li class="help-item"><a href="#">Privacy Policy</a></li>
                             <li class="help-item"><a href="#">Cookie Policy</a></li>
                         </ul>
+                    </div>
+                    <div class="copyright">
+                        <h4>2024</h4>
+                        <p>&copy; Pepe Jeans</p>
                     </div>
                 </div>
             </div>
