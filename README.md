@@ -1,4 +1,4 @@
-# Started learning web's skills by making projects
+# Started learning web development skills by making projects
 #### 💁projectName: Pepe Jeans Front-end Clone
 - After completion of this project got hands on experience to observe how HTML, CSS and javaScript interact with each other.
 - Technology used is only HTML and CSS
